@@ -28,51 +28,84 @@
   font-display: swap;
   }
 
-body {
-  margin-left: 40px;
-  margin-right: 40px;
-  font-family: "PT Sans";
-  font-weight: 400;
-
+html {
+  height: 100%;
   }
 
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: "PT Sans";
+  font-weight: 400;
+  }
+
+.container {
+ margin: 0 auto;
+ width: 1200px;
+ }
+
 .page-header {
-  height: 64px;
+  display: flex;
   font-family: "PT Sans";
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   color: #000000;
-
   }
 
+.navigation {
+  margin: o auto;
+}
+
+.navigation-list {
+  width: 339px;
+  margin: 0;
+  padding: 0;
+}
+
+.user {
+  width: 268px;
+  margin-left: auto;
+}
+
 .navigation-link {
-  position: top;
   color: inherit;
   text-decoration: none;
-  text-align: center;
   }
 
 .user-link {
   color: inherit;
   text-decoration: none;
-  text-align: center;
   }
+
+.main-container {
+  flex-grow: 1;
+}
 
 .main-index {
   background-image: url("../images/index-background.jpg");
   background-repeat: no-repeat;
   }
 
+.title {
+  width: 1200px;
+  text-align: center;
+  display: inline;
+  height: 261px;
+
+}
+
 .Sedona-pic {
-  margin-top: 51px;
-  margin-bottom: 82px;
-  margin-left: 371px;
-  margin-right: 371px;
+  display: block;
+  margin: 0 auto;
   }
 
+.offer-buttom {
+  display: block;
+}
+
 h2 {
-  padding-top: 69px;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
@@ -87,63 +120,56 @@ h3 {
   }
 
 p {
-  padding-bottom: 69px;
   text-align: center;
   font-size: 22px;
   line-height: 26px;
   }
 
-.advantages-p {
+.advantages-list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.advantages-text {
   text-align: center;
   font-size: 18px;
   line-height: 21px;
   }
 
 .advantages-item_1 {
-  padding-top: 102px;
   width:400px;
-  height: 285px;
+  height: 385px;
+  vertical-align: middle;
   background-color: #82B3D3;
   color: white;
   }
 
 .advantages-item_2 {
-  padding-top: 112.5px;
   width: 400px;
-  height: 285px;
+  height: 385px;
   color: #000000;
   }
 
 .advantages-item_3 {
-  padding-top: 112.5px;
   width: 400px;
-  height: 285px;
+  height: 385px;
   background:  rgba(131, 179, 211, 0.2);
   color: #000000;
   }
 
 .advantages-item_4 {
-  padding-top: 112.5px;
   width: 400px;
-  height: 285px;
+  height: 385px;
   color: #000000;
   }
 
 .advantages-item_5 {
-  padding-top: 102px;
   width:400px;
-  height: 285px;
+  height: 385px;
   background-color: #82B3D3;
   color: white;
-  }
-
-.advantages-picture-1 {
-  margin-left: 440px;
-  margin-right: 40px;
-  }
-
-.advantages-picture-2 {
-  margin-left: 0px;
   }
 
 .advice {
@@ -182,31 +208,28 @@ a {
   text-decoration: none;
   }
 
+.condition-list {
+  display: flex;
+}
+
 .condition-item-1 {
-  padding-top: 112.5px;
   width: 400px;
-  height: 285px;
+  height: 385px;
   background:  rgba(131, 179, 211, 0.2);
   color: #000000;
   }
 
 .condition-item-2 {
-  padding-top: 112.5px;
   width: 400px;
-  height: 285px;
+  height: 385px;
   color: #000000;
   }
 
 .condition-item-3 {
-  padding-top: 112.5px;
   width: 400px;
-  height: 285px;
+  height: 385px;
   background:  rgba(131, 179, 211, 0.2);
   color: #000000;
-  }
-
-.offer-title {
-  padding-top: 96px;
   }
 
 .malling-list {
@@ -239,7 +262,6 @@ form {
   }
 
 .newsletter-buttom {
-  padding-top: 54px;
   font-size: 20px;
   line-height: 36px;
   background-color: #82B3D3;
@@ -249,3 +271,37 @@ form {
   width: 232px;
   border: 0px;
   }
+
+footer {
+  justify-content: space-around;
+  display: flex;
+  height: 120px;
+}
+
+.footer-list {
+  width: 142px;
+  height: 40px;
+}
+
+.footer-contact-number {
+  width: 331px;
+  height: 40px;
+  font-size: 40px;
+  line-height: 40px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  text-decoration: none;
+  color: inherit;
+}
+
+.buttom-messenger {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-logo-link {
+  width: 114.9px;
+  height: 32.9px;
+  border: 0;
+  text-decoration: none;
+}
