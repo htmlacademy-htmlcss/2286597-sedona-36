@@ -1,0 +1,307 @@
+@font-face {
+  font-family: "PT Sans";
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+  }
+
+@font-face {
+  font-family: "PT Sans";
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+  }
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/PTSans-Italic.ttf") format("ttf");
+  font-display: swap;
+  }
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/PTSans-BoldItalic.ttf") format("ttf");
+  font-display: swap;
+  }
+
+html {
+  height: 100%;
+  }
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: "PT Sans";
+  font-weight: 400;
+  }
+
+.container {
+ margin: 0 auto;
+ width: 1200px;
+ }
+
+.page-header {
+  display: flex;
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  }
+
+.navigation {
+  margin: o auto;
+}
+
+.navigation-list {
+  width: 339px;
+  margin: 0;
+  padding: 0;
+}
+
+.user {
+  width: 268px;
+  margin-left: auto;
+}
+
+.navigation-link {
+  color: inherit;
+  text-decoration: none;
+  }
+
+.user-link {
+  color: inherit;
+  text-decoration: none;
+  }
+
+.main-container {
+  flex-grow: 1;
+}
+
+.main-index {
+  background-image: url("../images/index-background.jpg");
+  background-repeat: no-repeat;
+  }
+
+.title {
+  width: 1200px;
+  text-align: center;
+  display: inline;
+  height: 261px;
+
+}
+
+.Sedona-pic {
+  display: block;
+  margin: 0 auto;
+  }
+
+.offer-buttom {
+  display: block;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  }
+
+h3 {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  }
+
+p {
+  text-align: center;
+  font-size: 22px;
+  line-height: 26px;
+  }
+
+.advantages-list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.advantages-text {
+  text-align: center;
+  font-size: 18px;
+  line-height: 21px;
+  }
+
+.advantages-item_1 {
+  width:400px;
+  height: 385px;
+  vertical-align: middle;
+  background-color: #82B3D3;
+  color: white;
+  }
+
+.advantages-item_2 {
+  width: 400px;
+  height: 385px;
+  color: #000000;
+  }
+
+.advantages-item_3 {
+  width: 400px;
+  height: 385px;
+  background:  rgba(131, 179, 211, 0.2);
+  color: #000000;
+  }
+
+.advantages-item_4 {
+  width: 400px;
+  height: 385px;
+  color: #000000;
+  }
+
+.advantages-item_5 {
+  width:400px;
+  height: 385px;
+  background-color: #82B3D3;
+  color: white;
+  }
+
+.advice {
+  padding-top: 64px;
+  }
+
+.advice-description {
+  padding-bottom: 64px;
+  }
+
+.buttom {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 8px 34px;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #756157;
+  text-transform: uppercase;
+  }
+
+.offer-buttom {
+  padding-bottom: 96px;
+  padding-top: 54px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 8px 50px;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #756157;
+  text-transform: uppercase;
+  }
+
+a {
+  text-decoration: none;
+  }
+
+.condition-list {
+  display: flex;
+}
+
+.condition-item-1 {
+  width: 400px;
+  height: 385px;
+  background:  rgba(131, 179, 211, 0.2);
+  color: #000000;
+  }
+
+.condition-item-2 {
+  width: 400px;
+  height: 385px;
+  color: #000000;
+  }
+
+.condition-item-3 {
+  width: 400px;
+  height: 385px;
+  background:  rgba(131, 179, 211, 0.2);
+  color: #000000;
+  }
+
+.malling-list {
+  background-image: url("../images/Subscribe.jpg");
+  width: 1200px;
+  height: 414.86px;
+  color: #ffffff;
+  }
+
+.newsletter {
+  padding-top: 96px;
+  }
+
+input {
+  width: 452px;
+  height: 48px;
+  }
+
+label {
+  padding-top: 54px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  }
+
+form {
+  text-align: center;
+  }
+
+.newsletter-buttom {
+  font-size: 20px;
+  line-height: 36px;
+  background-color: #82B3D3;
+  border-radius: 0px 4px 4px 0px;
+  color: #ffffff;
+  height: 52px;
+  width: 232px;
+  border: 0px;
+  }
+
+footer {
+  justify-content: space-around;
+  display: flex;
+  height: 120px;
+}
+
+.footer-list {
+  width: 142px;
+  height: 40px;
+}
+
+.footer-contact-number {
+  width: 331px;
+  height: 40px;
+  font-size: 40px;
+  line-height: 40px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  text-decoration: none;
+  color: inherit;
+}
+
+.buttom-messenger {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-logo-link {
+  width: 114.9px;
+  height: 32.9px;
+  border: 0;
+  text-decoration: none;
+}
